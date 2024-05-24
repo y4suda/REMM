@@ -1,0 +1,93 @@
+!!index array str
+ "FNB"
+!entry.FNB.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "C1" "c3" 0 1 131072 1 6 0.194350
+ "H1" "h1" 0 1 131072 2 1 0.006160
+ "H2" "h1" 0 1 131072 3 1 0.006160
+ "H3" "h1" 0 1 131072 4 1 0.006160
+ "O1" "os" 0 1 131072 5 8 -0.553480
+ "P1" "p5" 0 1 131072 6 15 1.279380
+ "O2" "o" 0 1 131072 7 8 -0.808530
+ "O3" "o" 0 1 131072 8 8 -0.808530
+ "O4" "oh" 0 1 131072 9 8 -0.710060
+ "H4" "ho" 0 1 131072 10 1 0.388390
+!entry.FNB.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "C1" "c3" 0 -1 0.0
+ "H1" "h1" 0 -1 0.0
+ "H2" "h1" 0 -1 0.0
+ "H3" "h1" 0 -1 0.0
+ "O1" "os" 0 -1 0.0
+ "P1" "p5" 0 -1 0.0
+ "O2" "o" 0 -1 0.0
+ "O3" "o" 0 -1 0.0
+ "O4" "oh" 0 -1 0.0
+ "H4" "ho" 0 -1 0.0
+!entry.FNB.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.FNB.unit.childsequence single int
+ 2
+!entry.FNB.unit.connect array int
+ 0
+ 0
+!entry.FNB.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 3 1
+ 1 4 1
+ 1 5 1
+ 5 6 1
+ 6 7 1
+ 6 8 1
+ 6 9 1
+ 9 10 1
+!entry.FNB.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+!entry.FNB.unit.name single str
+ "FNB"
+!entry.FNB.unit.positions table  dbl x  dbl y  dbl z
+ -2.134000 0.0 0.040000
+ -2.177000 -0.724000 -0.789000
+ -2.214000 1.009000 -0.385000
+ -2.990000 -0.184000 0.705000
+ -0.954000 -0.148000 0.799000
+ 0.486000 0.263000 0.030000
+ 1.557000 0.075000 1.065000
+ 0.256000 1.503000 -0.780000
+ 0.611000 -1.028000 -1.043000
+ 1.148000 -1.673000 -0.557000
+!entry.FNB.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 0 0 0 0 0 0
+!entry.FNB.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "FNB" 1 11 1 "?" 0
+!entry.FNB.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.FNB.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.FNB.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
